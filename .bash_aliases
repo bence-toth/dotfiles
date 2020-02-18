@@ -45,3 +45,8 @@ alias jsonapi="npx json-server" # https://github.com/typicode/json-server
 alias npmupdate='npx npm-check' # https://github.com/dylang/npm-check
 alias majestic='npx majestic' # https://github.com/Raathigesh/majestic
 alias pccheck='npx alex' # https://github.com/get-alex/alex
+
+# Miscellaneous
+
+alias password='openssl rand -base64 14'
+alias myip="curl http://ipecho.net/plain; echo"
