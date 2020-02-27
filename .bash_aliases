@@ -1,6 +1,6 @@
 # Override `ls`, `grep`, `fgrep` and `egrep` with `--color=auto`
 
-if [ -x /usr/bin/dircolors ]; then echo asd fi
+if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
